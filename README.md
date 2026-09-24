@@ -1,6 +1,6 @@
 # Liquity PIL Voting
 
-Live dashboard: https://stengarl.github.io/pil-voting-dashboard/
+Live dashboard: https://stengarl.github.io/Liquity-V2-PIL-dashboard/
 
 A self-contained, single-file dashboard tracking Liquity V2's Protocol Incentivized
 Liquidity (PIL) governance: weekly vote-share evolution across all initiatives, BOLD
