@@ -17,7 +17,7 @@ methodology, sources, and known limitations are in the page's own footer.
 npx serve .
 ```
 
-Then open the printed local URL. The page is a single `index.html` (~515 KB, includes an
+Then open the printed local URL. The page is a single `index.html` (~550 KB, includes an
 embedded webfont) with no build step and no external runtime dependencies.
 
 ## Updating
