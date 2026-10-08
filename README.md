@@ -4,7 +4,7 @@ Live dashboard: https://stengarl.github.io/Liquity-V2-PIL-dashboard/
 
 A self-contained, single-file dashboard tracking Liquity V2's Protocol Incentivized
 Liquidity (PIL) governance: weekly vote-share evolution across all initiatives, BOLD
-distributed per epoch, 16 BOLD liquidity pools/vaults (TVL, volume, fees, PIL, APR), and
+distributed per epoch, 18 BOLD liquidity pools/vaults (TVL, volume, fees, PIL, APR), and
 every Liquidity Initiative that has ever received a PIL vote (bribes included).
 
 Every figure is sourced directly from onchain logs and each protocol's own free public API —
@@ -17,7 +17,7 @@ methodology, sources, and known limitations are in the page's own footer.
 npx serve .
 ```
 
-Then open the printed local URL. The page is a single `index.html` (~570 KB, includes an
+Then open the printed local URL. The page is a single `index.html` (~620 KB, includes an
 embedded webfont) with no build step and no external runtime dependencies.
 
 ## Updating
