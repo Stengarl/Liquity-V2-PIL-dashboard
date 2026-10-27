@@ -6,8 +6,11 @@ A self-contained, single-file dashboard tracking Liquity V2's Protocol Incentivi
 Liquidity (PIL) governance: weekly vote-share evolution across all initiatives, BOLD
 distributed per epoch, 16 BOLD venues in three tables — DEX pools, lending markets and vaults
 (TVL, volume, fees, PIL and other incentives, lender APR, and for lending markets the
-borrow side: amount borrowed, borrower incentives, net borrow APR), and
-every Liquidity Initiative that has ever received a PIL vote (bribes included).
+borrow side: amount borrowed, borrower incentives, net borrow APR),
+every Liquidity Initiative that has ever received a PIL vote (bribes included). A second page,
+"Friendly fork venues" (header tab, or `#forks`), covers 16 pools and lending markets for the stablecoins of five
+Liquity V2 forks (feUSD, CDP, BD, USDaf, JPYdf) on Ethereum, HyperEVM, Flare and Base,
+with the same epoch-by-epoch metrics minus PIL.
 
 Every figure is sourced directly from onchain logs and each protocol's own free public API —
 no paid data provider, no estimate where a real number could be read instead. Full
@@ -19,7 +22,7 @@ methodology, sources, and known limitations are in the page's own footer.
 npx serve .
 ```
 
-Then open the printed local URL. The page is a single `index.html` (~620 KB, includes an
+Then open the printed local URL. The page is a single `index.html` (~940 KB, includes an
 embedded webfont) with no build step and no external runtime dependencies.
 
 ## Updating
